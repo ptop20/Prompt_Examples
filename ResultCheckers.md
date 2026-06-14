@@ -1,33 +1,33 @@
 # Prompt Snippets
 
 ## Check if your prompt is being read
-### Confirmation your prompt is still being read completely - At the start of your prompt
+### Confirm your prompt is still being read completely - At the start of your prompt
 ```text
 Always start every response by addressing me as [your name]
 ```
 
 ## Review results 
-### Examples of what to add to the end of the prompt to help reduce errors. Use the ones relavant to your prompt.
+### Examples of what to add to the end of the prompt to help reduce errors. Use the ones relevant to your prompt.
 ```text
-- Review content and ensure there are not errors, contradictions, or unverified information
-- Double check your results to confirm they are correct. Flag any potential errors and report them to me
+- Review content and ensure there are no errors, contradictions, or unverified information
+- Double-check your results to confirm they are correct. Flag any potential errors and report them to me
 - Make sure data is verified before returning results
-- Double check results before returning
+- Double-check results before returning, explaining any discrepancies 
 - After computing, run a self-check:
         Recalculate key figures using an alternative method (e.g., aggregation vs. sampling).
         If results differ, highlight the discrepancy and choose the more reliable one, explaining why.
 ```
 
 ## Prompt examples to reduce any potential hallucinations
-### These are snippets that will force review of content and help produce rails for your review. Use the ones relavant to your prompt. 
+### These are snippets that will force review of content and help produce rails for your review. Use the ones relevant to your prompt. 
 ```text
 Guardrails:
-- Review content and ensure there are not errors, contradictions, or unverified information
-- Flag any assumptions or unclear information and create a bulletpoint list at the end for my review
+- Review content and ensure there are no errors, contradictions, or unverified information
+- Flag any assumptions or unclear information, and create a bullet point list at the end for my review
 - Do not fabricate data or cite unknown sources
-- Do not add in any additional information outside what has been provided
+- Do not add any additional information outside of what has been provided
 - Flag missing prerequisites explicitly
-- Remove any source that has been created by an AI
+- Remove any source that an AI has created
 ```
 
 # Specific examples
