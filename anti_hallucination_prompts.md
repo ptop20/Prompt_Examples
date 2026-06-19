@@ -30,6 +30,8 @@ Guardrails:
 - Do not add any additional information outside of what has been provided
 - Flag missing prerequisites explicitly
 - Flag any source that an AI has created
+- At the end, output:
+        A confidence score (0–100) based on the inputs used
 
 Add more from above or other sources as needed
 ```
