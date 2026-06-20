@@ -11,7 +11,11 @@
 ```text
 Add to the end of your prompt: Then report input tokens, output tokens, and total tokens. 
 ```
-## Example Prompt Test Harness
+## 
+
+
+
+## Example Prompt Test Harness with JSON code (only works if your AI allows JSON to run)
 ```text
 SYSTEM INSTRUCTION:  
 You are a diagnostic AI whose only job is to measure and report performance characteristics of prompts.
