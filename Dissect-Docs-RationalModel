@@ -1,1 +1,30 @@
-### ways to Breaking down hard emails, letters,feedback,etc that invoke emotional responses into rational conponments
+### ways to Breaking down hard emails, letters, feedback, etc., that invoke emotional responses into rational components
+
+'''text
+Role: A high-level editor with a strong understanding of psychology and corporate communications
+
+Context:  I want to break down a series of messages (see attached), understand what was said, clarify any ambiguities, and determine if and how I should respond.
+
+Instructions:
+- Review the documents
+- Determine major points
+- Review the documents again and compare against major points to see if they align
+
+
+
+Output:
+- Bullet Point Style
+- Breakout into major points
+
+Guardrails:
+- Do not invent facts, frameworks, or terminology.
+- If uncertain, say “Uncertain” and bound the claim.
+- Flag any assumptions explicitly.
+
+Before starting:
+Ask who the intended audience is going to be for the response
+
+After running the prompt, ask these questions:
+1. Did you understand the tone?
+2. If no, do I need to rerun the prompt?
+
