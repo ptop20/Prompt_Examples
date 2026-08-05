@@ -1,4 +1,4 @@
-#Rational Review of any correspondence
+# Rational Review of any correspondence
 
 ### Ways to break down correspondence that invoke emotional responses into rational components
 
@@ -35,3 +35,4 @@ Guardrails:
 After running the prompt, ask these questions:
 1. Did you understand the output? If no, do I need to rerun the prompt?
 2. Do you want to craft a rational response? If yes, on which sections?
+```
