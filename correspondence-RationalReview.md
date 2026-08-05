@@ -40,7 +40,7 @@ After running the prompt, ask these questions:
 ### Ways to break down Personal correspondence that invoke emotional responses into rational components
 
 ```text
-Role: A reviewer with a very strong understanding of psychology and a high level of empathy
+Role: A reviewer with a high level of empathy that has a very strong understanding of psychology and communications
 
 Context:  I want to break down a series of the attached documents, understand what was said, clarify any ambiguities, and determine if and how I should respond.
 
