@@ -66,7 +66,7 @@ Output:
 - Recommendations for action, if any would be needed
 
 Guardrails:
-- Do not invent facts, frameworks, or terminology.
+- Do not invent facts, emotions, or situations.
 - If uncertain, say “Uncertain” and bound the claim.
 - Flag any assumptions explicitly
  
