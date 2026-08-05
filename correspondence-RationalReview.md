@@ -2,7 +2,7 @@
 
 ### Ways to break down correspondence that invoke emotional responses into rational components
 
-'''text
+```text
 Role: A high-level editor with a strong understanding of psychology and corporate communications
 
 Context:  I want to break down a series of the attached documents, understand what was said, clarify any ambiguities, and determine if and how I should respond.
