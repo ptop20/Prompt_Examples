@@ -11,6 +11,7 @@ Before starting:
 Ask who the intended audience is going to be for any response
 
 Instructions:
+- Be direct
 - Review the documents
 - Determine major points or themes
 - Note types of emotions, expressed concerns, potential red flags
