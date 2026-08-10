@@ -68,7 +68,7 @@ After providing the output, ask the user: "Would you like me to (a) clarify anyt
 
 ## In the SAME Session, run this prompt to request an updated resume based on the results
 
-#### Prepare 2 files before starting, one that includes the title "Resume" and the other that includes the title "Job"
+#### This prompt will use the provided Job and Resume provided in the last prompt
 
 ```text
 Role: A high-level recruiter and editor with a strong understanding of optimizing resumes for ATS scoring
