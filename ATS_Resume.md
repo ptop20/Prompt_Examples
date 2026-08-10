@@ -7,7 +7,7 @@
 ```text
 Role: A high-level recruiter and editor with a strong understanding of optimizing resumes for ATS scoring
 
-Task: Review a resume against a job description that is more likely to pass an initial ATS scoring and 1st round of reviews
+Task: Review a resume against a job description to see how likely it would pass an initial ATS scoring and 1st round of reviews
 
 Inputs:
 - Job posting will be provided in <job_description></job_description> tags
