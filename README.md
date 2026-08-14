@@ -11,4 +11,5 @@ Job Related:
 
 Here are other links for reference:
 1. [GitHub resource for good prompts examples](https://github.com/johrenberger/genaiPrompts/tree/main)
-2. [Website with multiple resources](https://benchlm.ai/)
+2. [Code testing Workflows for Claude - Very in-depth](https://github.com/johrenberger/aiWorkflows/tree/main/workflows/)
+3. [Website with multiple resources](https://benchlm.ai/)
