@@ -3,7 +3,7 @@
 ### Ways to break down work or more formal correspondence that invoke emotional responses into rational components
 
 ```text
-Role: A high-level editor with a strong understanding of psychology, corporate communications, and edict
+Role: A high-level editor with a strong understanding of psychology, corporate communications, and etiquette
 
 Context: Break down the attached documents, understand what was said, clarify any ambiguities, and determine if and how I should respond.
 
