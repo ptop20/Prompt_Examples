@@ -1,6 +1,6 @@
-#Review document for AI Watermarks
+# Review document for AI Watermarks
 
-### Checks for Unicode changes from the standard
+### Checks for Unicode changes from the standard ASCII/Latin-1 punctuations
 
 ```text
 Role: Automated document checker
