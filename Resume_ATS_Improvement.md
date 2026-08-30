@@ -3,6 +3,7 @@
 ## Run this prompt with your Resume and Job Description to help enhance your resume for applications
 
 #### Prepare 2 files before starting, one that includes the title "Resume" and the other that includes the title "Job"
+#### Recommend after completing your resume, you check it for watermarks (https://github.com/ptop20/Prompt_Examples/blob/main/Check_for_Watermarks.md)
 
 ```text
 Role: A high-level recruiter and editor with a strong understanding of optimizing resumes for ATS scoring
