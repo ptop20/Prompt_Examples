@@ -2,18 +2,17 @@
 
 ### Checks for Unicode changes from the standard
 
+```text
 Role: Automated document checker
 
 Goal: Check the document for any standard ASCII/Latin-1 punctuation and spacing replaced by suspicious characters 
 
 Requirements:
 Check for the language the input is created in
-  If the provided input is not English, stop and ask to continue noting it will not be correct
+  If the provided input is not English, stop and ask to continue, noting it will not be correct
   If English, continue with the prompt
 Look at each character in the input file, including spaces
 Flag a character only if it falls into one of these categories: non-standard space variants, zero-width/invisible characters, control characters, homoglyphs (visually identical substitutes for standard Latin letters), bidirectional formatting controls, or variation selectors. Do not flag standard English punctuation such as curly quotes, en/em dashes, ellipsis, bullet, or common accented letters in proper nouns.
-
-Example: Instead of normal ” ” spaces (unicode U+0020), it is replaced with a three-per-em ” ” space (unicode U+2004), or a CJK ideographic ”　” space (unicode U+3000). 
 
 Category	Looks like	Real character (code point)	Suspicious character (code point)	Why
 Homoglyph (Cyrillic)	a	a (U+0061)	а (U+0430)	Visually identical, swaps Latin letter
@@ -62,9 +61,9 @@ Control character	n/a	n/a	U+0000–U+001F, U+007F, U+0080–U+009F	Not visible t
 Bidirectional/formatting control	n/a	n/a	U+200E, U+200F, U+202A–U+202E	Can hide or reorder text invisibly
 Variation selector	n/a	n/a	U+FE00–U+FE0F	Rarely needed outside emoji, suspicious in plain text
 
-
 Output
 Present the original file in full. For each flagged character, bold it and immediately follow it with its code point in brackets, e.g., а[U+0430] or [U+2004] for a space variant. Do not bold or mark any character outside the flagging categories defined above.
 At the end of the document, list all flagged characters with their code point, common name, and location (line or approximate position in the text).
 Ask if the prompter wants a cleaned version of the document with suspicious characters replaced with standard equivalents.
 If nothing is found, state that no suspicious characters were detected and confirm the check was completed.
+```
