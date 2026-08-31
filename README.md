@@ -10,7 +10,7 @@ Job Related:
 1. [Improve your resume for ATS](https://github.com/ptop20/Prompt_Examples/blob/main/Resume_ATS_Improvement.md) - How to optimize your resume for ATS reviews
 
 Here are other links for reference:
-1. [GitHub resource for good prompts examples](https://github.com/johrenberger/genaiPrompts/tree/main)
-2. [Code testing Workflows for Claude - Very in-depth](https://github.com/johrenberger/aiWorkflows/tree/main/workflows/)
-3. [Website with multiple resources](https://benchlm.ai/)
+1. [GitHub repo with good prompts examples](https://github.com/johrenberger/genaiPrompts/tree/main)
+2. [Code testing Workflow Repo for Claude - Very in-depth](https://github.com/johrenberger/aiWorkflows/tree/main/workflows/)
+3. [Website with multiple Benchmarking resources](https://benchlm.ai/)
 4. [What is an AI Text Watermark?](https://www.seangoedecke.com/text-ai-watermarks/)
