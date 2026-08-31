@@ -1,6 +1,6 @@
 # Review document for AI Watermarks
 
-### Test 1: Checks for Unicode changes from the standard ASCII/Latin-1 punctuation that could show AI generation 
+### Test 1: Checks for Unicode changes from the standard ASCII/Latin-1 Unicode that could show AI generation 
 
 ```text
 Role: Automated document checker
