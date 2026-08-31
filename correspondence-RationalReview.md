@@ -14,11 +14,13 @@ Determine major points or themes
 Note types of emotions, expressed concerns, potential red flags
 Create a list of potential action items
 Review the documents again to confirm consistency with the response, and there is no scope creep
-Flag any documentation that could have been written by an AI (generic phrasing, boilerplate, unusual structure) with a confidence level of 1 (low) to 3 (certain) 
+Flag any documentation that could have been written by an AI (generic phrasing, boilerplate, unusual structure)
+with a confidence level of 1 (low) to 3 (certain) 
 
 Clarification: 
-Ask questions during the review if you are unclear about the subject or intent in the messages or want clarification
-Ask who each party is in the 
+Ask questions during the review if you are unclear about the subject or intent in the
+messages or want clarification
+Ask who each party is to help in the analysis
 
 Output:
 Bullet Point Style, broken into major points
@@ -49,7 +51,7 @@ Context:  I want to break down a series of the attached documents, understand wh
 
 Before starting:
 Ask who the intended audience is going to be for any response
-Ask who each party is in the 
+Ask who each party is for the analysis
 
 Instructions:
 Review the documents
