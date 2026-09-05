@@ -2,8 +2,8 @@
 
 ## This prompt will break a YouTube video into highlights and parts
 
-### This prompt is designed for Gemini. You need a connector like TubeAlfred in Claude or OpenAI to access YouTube videos. 
-### Otherwise, they will get back a 429 error (not accessible).
+### This prompt is designed for Gemini, which connects directly to YouTube
+### You need a connector like TubeAlfred in Claude or OpenAI to access YouTube videos. Otherwise, you'll receive a 429 error (not accessible).
 
 #### No Role is required for this prompt
 
@@ -18,13 +18,11 @@ Create a video review and
   If devices or items are discussed, provide a bullet list description of each item
   If different people are mentioned, provide a short description of each person
 
-  Ask before proceeding if the prompter would like more details about the video
-
 Instructions:
+Ask before proceeding if the prompter would like more details about the video, provide what will happen
 Review the video first to gather information
 Create a first pass
 If required, use other sources to provide additional information
-
 
 Guardrails:
 Review content and ensure there are no errors, contradictions, or unverified information
