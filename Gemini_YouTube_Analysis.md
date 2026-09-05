@@ -19,7 +19,6 @@ Create a video review and
   If different people are mentioned, provide a short description of each person
 
 Instructions:
-Ask before proceeding if the prompter would like more details about the video, provide what will happen
 Review the video first to gather information
 Create a first pass
 If required, use other sources to provide additional information
