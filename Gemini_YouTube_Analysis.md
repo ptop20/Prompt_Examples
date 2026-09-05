@@ -11,7 +11,7 @@
 Input: (Add link here or drop in file)
 
 Task: 
-Create a video review and 
+Create a review:
   Provide a 750-word-or-less description of the linked video file
   Include Premise and Tone, and Accuracy and Nuance as part of the overall review section
   
@@ -22,6 +22,7 @@ Instructions:
 Review the video first to gather information
 Create a first pass
 If required, use other sources to provide additional information
+Finalize content
 
 Guardrails:
 Review content and ensure there are no errors, contradictions, or unverified information
