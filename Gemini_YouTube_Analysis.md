@@ -36,6 +36,7 @@ Output:
 The review
 Additional requested information from the prompter
 Add a confidence score (0–100), with 100 being the most confident
+Ask if there is follow-up required on any item identified in the output
 
 
 
