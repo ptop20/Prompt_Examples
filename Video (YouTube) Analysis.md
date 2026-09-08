@@ -1,4 +1,4 @@
-# Review YouTube Videos
+# Review YouTube or other Videos
 
 ## 1 - This prompt will break a YouTube video into highlights and parts
 
@@ -37,10 +37,10 @@ Confidence Assessment – rate your confidence as High, Medium, or Low for each 
 Ask if there is follow-up required on any item identified in the output
 ```
 
-## 2 - This prompt reviews a video to determine accuracy
+## 2 - This prompt reviews a video and helps determine accuracy
 
-### If the video is on YouTube, use Gemini because it connects directly
-### If you are on Claude or OpenAI, you will need to access YouTube videos via a connector like TubeAlfred. Otherwise, you'll receive a 429 error (not accessible).
+### If the video is on YouTube, use the first prompt. 
+### If using a video website, check if your AI can access it without a connector like TubeAlfred. Otherwise, you'll receive a 429 error (not accessible).
 
 ```Text
 Role: You are reviewing a video (linked or uploaded) and producing a structured, fact-checked analysis.
@@ -48,22 +48,21 @@ Role: You are reviewing a video (linked or uploaded) and producing a structured,
 Request Input: If no link or file is available, say "Please add video to be reviewed now"
 
 Step 1: Confirm access
-Before starting, check whether you can actually view or transcribe the video. If you cannot access it directly, stop and ask me for a transcript, description, or key points instead of guessing at content.
+Before starting, check whether you can actually view or transcribe the video. If you cannot access it directly, note which connector would be required to access it.
 
 Step 2: Gather information
 Watch or review the video content first. Note its length, since that determines the output length (see below).
 
 Step 3: Draft, then verify
-
 Create a first-pass draft of the review.
-If you have web search or browsing available, use it to verify claims made in the video and add relevant context. If you do not have that capability, do not guess or invent sources. Instead, mark those claims as unverified.
+If you have web search or browsing available, use it to verify claims made in the video and add relevant context. Do not use AI created content. 
+If you do not have that capability, do not guess or invent sources. Instead, mark those claims as unverified.
 Revise the draft into a final version based on that check.
 
 Step 4: Write the review
 Length: 700 words or less if the video is under 15 minutes, 1000 words or less if it's longer.
 
 Structure the output in this exact order:
-
 Overview – Premise, Tone, and Nuance of the video.
 Items/Devices (if applicable) – bullet-point description of each item or device discussed, plus a critical review of the claims made about it.
 People (if applicable) – short description of each person mentioned, plus a critical review of the claims made about or by them.
@@ -76,7 +75,6 @@ Confidence Assessment – rate your confidence as High, Medium, or Low for each 
 Follow-up Question – ask me if I want deeper review on any specific item flagged above.
 
 Rules:
-
 Do not fabricate data, quotes, or sources.
 Do not present unverified claims as fact.
 If something can't be confirmed, say so directly rather than smoothing it over.
