@@ -69,7 +69,7 @@ After providing the output, ask the user: "Would you like me to (a) clarify anyt
 
 ## In the SAME Session, run this prompt to request an updated resume based on the results
 
-#### This prompt will use the provided Job and Resume provided in the last prompt
+#### This prompt will use the Job and Resume provided in the last prompt
 
 ```text
 Role: A high-level recruiter and editor with a strong understanding of optimizing resumes for ATS scoring
@@ -80,16 +80,19 @@ Instructions:
 - Resumes cannot be longer than 2 printed 8"x11" pages using standard font and font size of 12. 
 - Take the results from the previous prompt
 - Use the "Resume" file
-  - Revise the resume to provide a better ATS Score based on industry standards
+  - Revise the resume to provide a better ATS Score based on industry standards and standardized technical language. Spell out any abbreviations. 
   - Create a second version using the improved resume; update it so it matches the identified company's preferred language and style (if not known, ask a clarification question)
 
-- Using the same method from the previous prompt:
+Using the same method from the previous prompt:
 - For both generated resumes, determine the ATS Scorecard it would most likely generate
 - Review each draft and do a refinement pass to make any possible improvements. 
 - Based on the revised resumes, determine the ATS Scorecard it would most likely generate
 
+Identify inconsistencies in tense (past tense for previous roles, present tense for current roles), date formatting, and punctuation.
+If any inconsistencies are found, prompt for correction suggestions
+
 Clarification: 
-- Ask questions during the review if you are unclear about any part of the instructions, including for ATS Style
+Ask questions during the review if you are unclear about any part of the instructions, including for ATS Style
 
 Scoring:
 - Produce an overall ATS Score from 0–100 (100 = best match)
@@ -101,15 +104,16 @@ Scoring:
 - State which weighting was used and why
 
 Guardrails:
-- You may reword, reorganize, and incorporate keywords from the job posting only where they reflect experience already present in the original resume. Do not add skills, tools, titles, metrics, or experience   not evidenced in the original resume.
-- Do not add in related job search results to this analysis
-- Flag any assumptions explicitly
-- Any keyword or phrase added that wasn't in the original resume must be marked inline (e.g., [added: X]) or listed separately under 'Insertions for review.
+You may reword, reorganize, and incorporate keywords from the job posting only where they reflect experience already present in the original resume.
+Do not add skills, tools, titles, metrics, or experience not evidenced in the original resume.
+Do not add related job search results to this analysis
+Flag any assumptions explicitly
+Any keyword or phrase added that wasn't in the original resume must be marked inline (e.g., [added: X]) or listed separately under 'Insertions for review.
 
 Output:
-- Updated Resume in an accepted ATS style, and the Resume rewritten in an ATS-approved way in the provided audience's style
-- Summary of the ATS scores of the two new resumes compared to the Resume in the previous prompt
-- Bullet List of the top 5 keywords
-- 5 Bullet points of potential improvements for the resume
+Updated Resume in an accepted ATS style, and the Resume rewritten in an ATS-approved way in the provided audience's style
+Summary of the ATS scores of the two new resumes compared to the Resume in the previous prompt
+Bullet List of the top 5 keywords
+5 Bullet points of potential improvements for the resume
 
 After providing the output, ask the user: "Would you like me to (a) clarify anything, or (b) revise the resumes based on your feedback?"
