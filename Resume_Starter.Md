@@ -1,5 +1,5 @@
 # Building out a Resume
-
+<<<<<< In-Progess
 ### If you have no clue what to write
 
 ```Text
@@ -72,3 +72,4 @@ Example input: “Write a professional explanation for a 1-year employment gap d
 
 “Review this resume for consistency in tense, formatting, and style: [paste resume]. Identify any inconsistencies and suggest corrections. Check for: – Past tense for previous roles, present tense for current – Consistent date formatting – Parallel structure in bullet points – Uniform punctuation”
 ```
+
