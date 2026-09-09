@@ -1,10 +1,10 @@
 # Various Prompt Examples
-This repo is specifically for providing a growing library of prompts to be shared amongst the AI community. 
+This repo provide a growing library of prompts to be shared amongst the AI community. 
 
 1. [Have AI act as a SECOND set of eyes on your correspondence](https://github.com/ptop20/Prompt_Examples/blob/main/correspondence-RationalReview.md) - Before you respond, have an AI check what you received first
 2. [Anti-hallucination Checkers](https://github.com/ptop20/prompt_examples/blob/main/anti_hallucination_prompts.md) - Examples for confirming prompts are being read and content is correct
 3. [Token Use Analysis](https://github.com/ptop20/Prompt_Examples/blob/main/AI_cost_analysis.md) - Some ways to estimate the cost of running your prompts BEFORE you commit
-4. [Check for Watermarks](https://github.com/ptop20/Prompt_Examples/blob/main/Check_for_Watermarks.md) - A sample on how to check for basic watermarks done with Unicode changes
+4. [Check for Watermarks - Characters and Words](https://github.com/ptop20/Prompt_Examples/blob/main/Check_for_Watermarks.md) - A sample on how to check for basic watermarks done with Unicode changes and short words. 
 5. [Video Analyzer](https://github.com/ptop20/Prompt_Examples/blob/main/Gemini_YouTube_Analysis.md) - Simple prompt to review YouTube Videos (Gemini-focused - Need Connector for Claude)
 
 Job Related:
@@ -15,3 +15,4 @@ Here are other links for reference:
 2. [Code testing Workflow Repo for Claude - Very in-depth](https://github.com/johrenberger/aiWorkflows/tree/main/workflows/)
 3. [Website with multiple Benchmarking resources](https://benchlm.ai/)
 4. [What is an AI Text Watermark?](https://www.seangoedecke.com/text-ai-watermarks/)
+5. [How Claude is really Watermarking](https://www.facebook.com/reel/1385144317162235)
