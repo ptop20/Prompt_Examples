@@ -7,8 +7,10 @@ Always start every response by addressing me as [your name]
 ```
 
 ## Review results 
-#### Examples to add at the end of a prompt to help reduce errors. Use the ones relevant to what you are trying to do.
+#### Examples to add at the beginning of a prompt to help reduce errors. Use the ones relevant to what you are trying to do.
 ```text
+
+Guardrails:
 1. Review content and ensure there are no errors, contradictions, or unverified information
 2. Double-check your results to confirm they are correct. Flag any potential errors and report them to me
 3. Make sure data is verified before returning results
@@ -16,12 +18,12 @@ Always start every response by addressing me as [your name]
 5. After computing, run a self-check:
         Recalculate key figures using an alternative method (e.g., aggregation vs. sampling).
         If results differ, highlight the discrepancy and choose the more reliable one, explaining why.
-6. What is the Hallucination Risk (1-10)
+6. What is the Hallucination Risk (1-10) based on the information provided by the prompter and what information you were able to find to answer the question
 7. 
 ```
 
 ## Prompt examples to reduce any potential hallucinations
-#### These snippets will force a review of content and help produce rails for your review. Use the ones relevant to your prompt. 
+#### These snippets will force a content review and help create rails for your review. Use the ones relevant to your prompt. 
 ```text
 After your prompt, add:
 
