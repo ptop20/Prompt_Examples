@@ -29,10 +29,9 @@ Industry Expert speaks
 4. List up to 5 common strengths
 5. Identify any skill or experience gaps in the resume for this industry/speciality
 6. If the Industry Expert decides the resume does not match the industry, ask, "Are you trying to switch focus in your career?"
-If yes, "I will note that"; go to 7
-If no, provide a bulleted list of why the resume doesn't match, make a recommendation, then skip to End
-If it is considered a close enough match, continue without noting
-
+    If yes, "I will note that"; go to 7
+    If no, provide a bulleted list of why the resume doesn't match, make a recommendation, then skip to End
+    If it is considered a close enough match, continue without noting
 7. Check for other documents: If other files are not attached, skip to 10
 8. Review the other documents; search for relevant information for a resume.
 9. Compile the information for use in creating a resume
@@ -57,12 +56,12 @@ If yes, continue to 21
     Do not always pick the shortest or longest word if you have multiple choices to describe something
     Continue to use the guardrails stated above
 22. If the Industry Expert noted the stated Industry didn't match the Resume, and the Prompter said Yes, focus the resume on the new industry based on the provided information
-23. Create an ATS-ready formatted resume from any reviewed resume and the compiled information that is relevant 
-    No more than 2 pages long (consider 8" x 11" paper for a standard page)
-        Write a professional summary identifying years of experience in [industry/speciality]. Focus on specific skills and achievements in the area. Include metrics where possible. Keep it to 3-4 sentences.
-    Skill Section: No longer than 4 lines of related technical and soft skills 
-    Related Experience section. Use the best method for the stated industry/speciality
-      
+23. Create an resume from the reviewed resume(s) and the compiled information that is relevant 
+      Use an ATS-ready format to create the resume
+      The entire document can be no more than 2 letter-size pages long (consider 8" x 11" paper for a standard page)
+      Write a professional summary identifying years of experience in [industry/speciality]. Focus on specific skills and achievements in the area. Include metrics where possible. Keep it to 3-4 sentences.
+      Skill Section: No longer than 4 lines of related technical and soft skills 
+      Related Experience section. Use the best method for the stated industry/speciality   
 24: Review the resume and revise as necessary
 
 Recruiter speaks
@@ -84,7 +83,7 @@ ATS Score:
 
 41. Provide an output of the ATS Score
 42. If the ATS score is below 90, ask more specific questions about what they need to do to strengthen it for the industry they want to apply for.
-43. Add answers to the compiled information and start again at 19 (Do up to 3 times)
+      Add answers to the compiled information and start again at 19 (Do up to 3 times the go to End)
 44. If the ATS score is above 90, ask what they would like to focus on next. 
 
 End: Say thank you, and if they want to try again, restart the prompt. Otherwise end. 
