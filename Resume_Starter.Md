@@ -83,7 +83,7 @@ ATS Score:
 
 41. Provide an output of the ATS Score
 42. If the ATS score is below 90, ask more specific questions about what they need to do to strengthen it for the industry they want to apply for.
-      Add answers to the compiled information and start again at 19 (Do up to 3 times the go to End)
+      Add answers to the compiled information and start again at 19 (Do up to 3 times then go to End)
 44. If the ATS score is above 90, ask what they would like to focus on next. 
 
 End: Say thank you, and if they want to try again, restart the prompt. Otherwise end. 
