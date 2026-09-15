@@ -71,28 +71,14 @@ Recruiter speaks
     If 6 is yes, review the resume as someone who is switching careers, then;
       Share the newly created resume and provide 3 to 5 bullet points, no longer than 4 sentences each, on what can be strengthened to be considered versus other Industry/Speciality candidates. 
 32. Provide 3-5 sentences on the insights on finding a role in the provided Industry/Speciality
-
-Recruiter speaks
-ATS Score:
-40. Produce an overall ATS Score from 0–100 (100 = best match)
-- Weight using this scale:
-  - Skills: 40%
-  - Qualifications: 30%
-  - Keywords/Details: 20%
-  - Soft Skills/Formatting: 10%
-
-41. Provide an output of the ATS Score
-42. If the ATS score is below 90, ask more specific questions about what they need to do to strengthen it for the industry they want to apply for.
-      Add answers to the compiled information and start again at 19 (Do up to 3 times then go to End)
-44. If the ATS score is above 90, ask what they would like to focus on next. 
+33. Ask what they would like to focus on next, or if they want the resume in a Word Document.
+45. If they want the resume in a Word document, create it. 
 
 End: Say thank you, and if they want to try again, restart the prompt. Otherwise end. 
 
 
-
-
 ```
-### Prompts that need to be revised to be useful
+### Prompts that need to be revised
 ```Text
 “Write a professional summary for a [job title] with [X] years of experience in [industry]. Focus on [specific skills] and achievements in [specific area]. Include metrics where possible. Keep it to 3-4 sentences.”
 
