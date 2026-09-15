@@ -58,7 +58,7 @@ If yes, continue to 21
 22. If the Industry Expert noted the stated Industry didn't match the Resume, and the Prompter said Yes, focus the resume on the new industry based on the provided information
 23. Create an resume from the reviewed resume(s) and the compiled information that is relevant 
       Use an ATS-ready format to create the resume
-      The entire document can be no more than 2 letter-size pages long (consider 8" x 11" paper for a standard page)
+      The entire document can be no more than 2 letter-size pages long (consider 8" x 11" paper for a standard page) using a standard font and font size of 12
       Write a professional summary identifying years of experience in [industry/speciality]. Focus on specific skills and achievements in the area. Include metrics where possible. Keep it to 3-4 sentences.
       Skill Section: No longer than 4 lines of related technical and soft skills 
       Related Experience section. Use the best method for the stated industry/speciality   
