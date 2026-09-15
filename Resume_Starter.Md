@@ -1,7 +1,7 @@
 # Building out a Resume
 
 ### This prompt helps as a Resume Starter
-#### This will provide some guidance and lead through a process to build out an initial resume
+#### This will provide some guidance and lead you through a process to build out an initial resume
 <<<<<< In Progress
 
 ```Text
