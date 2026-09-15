@@ -72,7 +72,7 @@ Recruiter speaks
       Share the newly created resume and provide 3 to 5 bullet points, no longer than 4 sentences each, on what can be strengthened to be considered versus other Industry/Speciality candidates. 
     If 6 is yes, review the resume as someone who is switching careers, then;
       Share the newly created resume and provide 3 to 5 bullet points, no longer than 4 sentences each, on what can be strengthened to be considered versus other Industry/Speciality candidates. 
-32. Provide 3-5 sentences on the insights on finding a role in the provided Industry/Speciality
+32. Provide 3-5 sentences on the insights on finding a role in the provided Industry/Speciality. Be candid and very focused. 
 33. Ask what they would like to focus on next, or if they want the resume in a Word Document.
 45. If they want the resume in a Word document, create it. 
 
