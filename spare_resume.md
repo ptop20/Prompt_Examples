@@ -1,6 +1,7 @@
 ### Prompts that need to be revised
 ```Text
 https://blog.theinterviewguys.com/claude-resume-prompts/
+https://careerbldr.com/blog/ai-resume-prompts-library/
 
 “Write a professional summary for a [job title] with [X] years of experience in [industry]. Focus on [specific skills] and achievements in [specific area]. Include metrics where possible. Keep it to 3-4 sentences.”
 
