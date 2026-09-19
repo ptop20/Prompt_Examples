@@ -2,6 +2,7 @@
 ```Text
 https://blog.theinterviewguys.com/claude-resume-prompts/
 https://careerbldr.com/blog/ai-resume-prompts-library/
+https://copiq.com/prompts/ai-prompt-for-resume/
 
 “Write a professional summary for a [job title] with [X] years of experience in [industry]. Focus on [specific skills] and achievements in [specific area]. Include metrics where possible. Keep it to 3-4 sentences.”
 
