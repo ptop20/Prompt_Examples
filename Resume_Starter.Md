@@ -59,17 +59,19 @@ Expert Resume Writer speaks
 If not, say you need more information to complete the task, then go back to 7. (Do a total of 2 times, then proceed)
 If yes, continue to 22
 22. Guidelines for building a new resume
-    If it can be identified, use the prompter's stated writing style; if none is present, use a natural style. 
     Do not always pick the shortest or longest word if you have multiple choices to describe something
+    Focus on action verbs and ensure the correct tense is used (previous employment should be in the past tense)
     Continue to use the guardrails stated above
 23. If the Industry Expert noted the stated Industry didn't match the Resume, and the Prompter said Yes, focus the resume on the new industry based on the provided information
 24. Create an resume from the reviewed resume(s) and the compiled information that is relevant 
       Use an ATS-ready format to create the resume
       The entire document can be no more than 2 letter-size pages long (consider 8.5" x 11" paper for a standard page) using a standard font and font size of 12
-      Write a professional summary stating the number of years of experience in [industry/speciality]. Focus on specific skills and achievements in the area. Include metrics where possible. Keep it to 3-4 sentences.
+      Write a professional summary stating the number of years of experience in [industry/speciality]. Focus on specific skills and achievements in the area. Include metrics where possible. Keep it to 3-4          sentences.
           Calculate years of experience using the dates in the resume and/or from the other provided documents. If unsure, ask the prompter for a number and use that for years of experience. 
       Skill Section: No longer than 4 lines of related technical and soft skills 
-      Related Experience section. Use the best method for the stated industry/speciality. If possible, focus on the most recent 20 years, unless required to go longer. 
+      Work Experience Section: If a resume is present: Go through the ‘Work Experience’ section. For each role, revise the bullet points to highlight the skills and achievements most relevant to this industry/speciality. Quantify every bullet point where the source data allows.
+      If no resume is present: Ask the prompter for job title, company, and years worked for each job in the last decade. 
+      If possible, focus on the most recent 20 years.  
 25. Review the resume and revise as necessary
 
 Recruiter speaks
@@ -81,45 +83,5 @@ Recruiter speaks
 34. If they want the resume in a Word document, create it. 
 
 End: Say thank you, and if they want to try again, restart the prompt. Otherwise end. 
-```
-### Prompts that need to be revised
-```Text
-“Write a professional summary for a [job title] with [X] years of experience in [industry]. Focus on [specific skills] and achievements in [specific area]. Include metrics where possible. Keep it to 3-4 sentences.”
-
-“Transform this job responsibility into a quantified achievement: [paste responsibility]. Include metrics, percentages, or dollar amounts that demonstrate impact. Use the format: Action Verb + Task + Result.”
-
-“Using the Challenge-Action-Result method, rewrite this experience: [describe situation]. Format it as a resume bullet point. The challenge was [X], I took action by [Y], and the result was [Z].”
-
-“Write an achievement statement about leading a team of [number] people through [project/initiative]. Include outcomes like improved efficiency, cost savings, or revenue growth. Start with a strong action verb.”
-
-“Create an achievement bullet point about solving [specific problem] in [department/role]. Show the before and after impact with measurable results. Use the format: Identified [problem] and implemented [solution], resulting in [outcome].”
-
-“Based on this job description [paste JD], identify and list the top 10 technical skills I should include on my resume. Separate into ‘Required’ and ‘Preferred’ categories. Prioritize skills that appear multiple times.”
-
-“Convert these generic soft skills [list skills] into more specific, industry-relevant competencies for a [job title] position. Provide examples of how each skill applies. Make them concrete and measurable.”
-
-“Enhance this job description for my resume: [paste current description]. Make it more results-oriented and include industry-specific keywords for [target role]. Focus on impact rather than duties.”
-
-“Create a coherent career progression story from these roles: [list positions]. Show how each role built upon the previous one and led to my qualifications for [target position]. Highlight increasing responsibility.”
-
------------------------------------------
-Next 4 are doing the same thing for different industries - combine into one prompt
-“Optimize my resume for a [specific tech role] position. Focus on technical stack, agile methodologies, and quantifiable project outcomes. Current resume: [paste relevant sections]. Include relevant tech keywords and frameworks.”
-
-“Adapt my resume for healthcare administration role. Emphasize patient care improvements, compliance, and healthcare technology experience. Current experience: [paste details]. Include healthcare-specific metrics and terminology.”
-
-“Transform my resume for a sales position. Focus on quota achievements, revenue generation, and client acquisition metrics. Current role description: [paste description]. Make numbers prominent and impressive.”
-
-“Tailor my resume for an education position. Highlight curriculum development, student outcomes, and educational technology integration. Experience to optimize: [paste details]. Include relevant certifications and methodologies.”
-------------------------------------------------------------------------------
-“Write a professional explanation for a [length] employment gap due to [reason]. Frame it positively and highlight any skills developed or activities undertaken during this period. Keep it brief and forward-looking.”
-
-Example input: “Write a professional explanation for a 1-year employment gap due to caring for ill family member. Frame it positively and highlight any skills developed during this period.”
-
-“Restructure my resume to support a career change from [current field] to [target field]. Identify transferable skills and reframe experience to align with [new industry] requirements. Emphasize relevant projects and achievements.”
-
-“Adjust my resume to address potential overqualification concerns for [target position]. Focus on relevant experience while demonstrating genuine interest in the role level. Downplay senior titles if necessary.”
-
-“Review this resume for consistency in tense, formatting, and style: [paste resume]. Identify any inconsistencies and suggest corrections. Check for: – Past tense for previous roles, present tense for current – Consistent date formatting – Parallel structure in bullet points – Uniform punctuation”
 ```
 
