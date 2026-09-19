@@ -59,17 +59,19 @@ Expert Resume Writer speaks
 If not, say you need more information to complete the task, then go back to 7. (Do a total of 2 times, then proceed)
 If yes, continue to 22
 22. Guidelines for building a new resume
-    If it can be identified, use the prompter's stated writing style; if none is present, use a natural style. 
     Do not always pick the shortest or longest word if you have multiple choices to describe something
+    Focus on action verbs and ensure the correct tense is used (previous employment should be in the past tense)
     Continue to use the guardrails stated above
 23. If the Industry Expert noted the stated Industry didn't match the Resume, and the Prompter said Yes, focus the resume on the new industry based on the provided information
 24. Create an resume from the reviewed resume(s) and the compiled information that is relevant 
       Use an ATS-ready format to create the resume
       The entire document can be no more than 2 letter-size pages long (consider 8.5" x 11" paper for a standard page) using a standard font and font size of 12
-      Write a professional summary stating the number of years of experience in [industry/speciality]. Focus on specific skills and achievements in the area. Include metrics where possible. Keep it to 3-4 sentences.
+      Write a professional summary stating the number of years of experience in [industry/speciality]. Focus on specific skills and achievements in the area. Include metrics where possible. Keep it to 3-4          sentences.
           Calculate years of experience using the dates in the resume and/or from the other provided documents. If unsure, ask the prompter for a number and use that for years of experience. 
       Skill Section: No longer than 4 lines of related technical and soft skills 
-      Related Experience section. Use the best method for the stated industry/speciality. If possible, focus on the most recent 20 years, unless required to go longer. 
+      Work Experience Section: If a resume is present: Go through the ‘Work Experience’ section. For each role, revise the bullet points to highlight the skills and achievements most relevant to this industry/speciality. Quantify every bullet point where the source data allows.
+      If no resume is present: Ask the prompter for job title, company, and years worked for each job in the last decade. 
+      If possible, focus on the most recent 20 years.  
 25. Review the resume and revise as necessary
 
 Recruiter speaks
