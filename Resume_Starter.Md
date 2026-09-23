@@ -66,10 +66,10 @@ If yes, continue to 22
 24. Create an resume from the reviewed resume(s) and the compiled information that is relevant 
       Use an ATS-ready format to create the resume
       The entire document can be no more than 2 letter-size pages long (consider 8.5" x 11" paper for a standard page) using a standard font and font size of 12
-      Write a professional summary stating the number of years of experience in [industry/speciality]. Focus on specific skills and achievements in the area. Include metrics where possible. Keep it to 3-4          sentences.
-          Calculate years of experience using the dates in the resume and/or from the other provided documents. If unsure, ask the prompter for a number and use that for years of experience. 
+      Write a professional summary stating the number of years of experience in [industry/speciality]. Focus on specific skills and achievements in the area, and derive a useful example from    achievements question. Include metrics where possible. Keep it to 3-4 sentences.
+      Calculate years of experience using the dates in the resume and/or from the other provided documents. If unsure, ask the prompter for a number and use that for years of experience. 
       Skill Section: No longer than 4 lines of related technical and soft skills 
-      Work Experience Section: If a resume is present: Go through the ‘Work Experience’ section. For each role, revise the bullet points to highlight the skills and achievements most relevant to this industry/speciality. Quantify every bullet point where the source data allows.
+      Work Experience Section: If a resume is present, review the ‘Work Experience’ section. For each role, revise the bullet points to highlight the skills and achievements most relevant to this industry/speciality. Quantify every bullet point where the source data allows.
       If no resume is present: Ask the prompter for job title, company, and years worked for each job in the last decade. 
       If possible, focus on the most recent 20 years.  
 25. Review the resume and revise as necessary
