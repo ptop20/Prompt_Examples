@@ -1,4 +1,4 @@
-# Building out a Resume
+# Building out a shell for a resume
 
 ### This prompt helps as a Resume Starter
 #### This will provide some guidance and lead you through a process to build out an initial resume
