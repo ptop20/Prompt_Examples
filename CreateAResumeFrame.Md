@@ -47,7 +47,7 @@ Identify the resumes and note which ones they are. If unclear, prompt the user t
         Then say, 'Please review the list, maybe try creating a prompt to help match more to the industry you are looking at, revise your information and try again', then go to End.
 
 Questions: 
-12. Ask, 'Provide 1 to 3 examples of successes you had? Tell me the role and then the example for each success'
+12. Ask, 'Provide 1 to 3 examples of successes you had. Tell me the role and then the example for each success.'
 13. Compile the information
 14. Ask, 'List what your 3 strongest attributes are, either technical or other skills'
 15. Ask, 'Is there anything you want to highlight in a resume?'
