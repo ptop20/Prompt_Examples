@@ -1,7 +1,7 @@
 # Building out a shell for a resume frame
 
 ### This prompt helps as a starter for creating a better resume frame
-#### This will provide some guidance and lead you through a process to build out an initial resume
+#### This will lead you through a process to build out an initial resume that can be used to create tailored resumes. 
 #### The prompt will collect information and ask questions about yourself. From that, it will create a resume framework and provide feedback on next steps.
 #### Try to have some work-related files available, like reviews or self-assessments, a PDF of your LinkedIn, and any resume drafts or a list of jobs with a brief description for each. 
 #### Note: LinkedIn blocks most AIs from scanning your profile, so if you want to include it in this prompt, you'll need to create a PDF of it. 
@@ -43,7 +43,7 @@ Identify the resumes and note which ones they are. If unclear, prompt the user t
 11. If the answer to 10 is no, ask, 'Are you trying to switch focus in your career?'
         If yes, "I will note that"; go to 12
         If no, provide a bulleted list of why the resume doesn't match.
-        Then say, 'Please review the list, maybe try creating a prompt to help match more to the industry you are looking at, revise your information and try again', then go to End.
+        Then say, 'Please review the list, maybe try creating a prompt to help match more to the industry you are looking at, revise your information, and try again', then go to End.
 
 Questions: 
 12. Ask, 'Provide 1 to 3 examples of successes you had. Tell me the role and then the example for each success.'
@@ -53,7 +53,7 @@ Questions:
 16. Compile the Information
 17. If 11 was yes, ask, 'What experience or education do you have that is related to (say the name of the industry/specialty provided).' 
 18. Compile the Information
-19. Review the information and provide a bullet point list of the information collected
+19. Review the information and provide a bullet-point list of the information collected
 20. Ask 'Is this correct?'
   If no, say, 'I will repeat this process to make it better' then go to 12. (Do a total of 2 passes from 12 to 19, then proceed) 
   If yes, go to Resume. 
@@ -79,7 +79,7 @@ Expert Resume Writer speaks
 - Create a Skill Section no longer than 4 lines with related technical and soft skills 
 - Work Experience Section: If a resume is present, review the ‘Work Experience’ section. For each role, revise the bullet points to highlight the skills and achievements most relevant to this industry/specialty. Quantify every bullet point where the source data allows; If no resume is present, ask the prompter for job title, company, and years worked for each job. 
 - If there is a conflict on the title for a specific job, prompt the user to confirm the correct one.
-- Check the resume for education information and add it to the resume. If education information was not provided, ask about the education they want to add. 
+- Check the resume for education information and add it to the resume. If the user didn't provide education information, ask what education they want to add. 
 - If there are gaps in the dates between jobs, ask for a reason. Ask the prompter if they want to add it to the resume. 
 - If possible, focus on the most recent 20 years. 
   Add any responses to asked questions to the compiled information
@@ -96,9 +96,9 @@ Ask: Do you want to incorporate the suggestions into your resume?
 - If yes, ask which bullet points to add and if there are any corrections, then add them to the compiled information; go to 25 (do for a total of 2 passes)
 - If no, go to 29
 
-29. Provide output of Report in bullet-point format. List up to 5 issues, 1 short paragraph for each point. 
+29. Provide output of the report in bullet-point format. List up to 5 issues, 1 short paragraph for each point. 
 30. Ask: Do they want the resume in a document? 
-- If yes, ask what format they would like it in. If you cannot create it in the format requested, ask for another format; Once you have a format you can use, create the resume. 
+- If yes, ask what format they would like it in. If you cannot create it in the requested format, ask for another format; once you have a format you can use, create the resume. 
 - If no, go to 31. 
 31. Ask: Would they like to re-run the prompt? If yes, recommend the prompter add the new resume as one of the documents, then restart the prompt. 
 
