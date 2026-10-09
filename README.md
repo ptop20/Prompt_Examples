@@ -9,7 +9,7 @@ This repo provides a growing library of prompts to share with AI users.
 6. [Prompt Checker](https://github.com/ptop20/Prompt_Examples/blob/main/prompt_checker.md) - A more detailed way of checking your prompts. More informative than a one-liner.
 
 Job Related:
-1. [Get started with your resume](https://github.com/ptop20/Prompt_Examples/blob/main/CreateAResumeFrame.Md)) - Walkthrough to help you build a resume
+1. [Get started with your resume](https://github.com/ptop20/Prompt_Examples/blob/main/CreateAResumeFrame.Md) - Walkthrough to help you build a resume
 2. [Improve your resume for ATS](https://github.com/ptop20/Prompt_Examples/blob/main/Resume_ATS_Improvement.md) - How to optimize your resume for ATS reviews
 
 Here are other links for reference:
