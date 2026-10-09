@@ -5,7 +5,6 @@
 #### The prompt will collect information and ask questions about yourself. From that, it will create a resume framework and provide feedback on next steps.
 #### Try to have some work-related files available, like reviews or self-assessments, a PDF of your LinkedIn, and any resume drafts or a list of jobs with a brief description for each. 
 #### Note: LinkedIn blocks most AIs from scanning your profile, so if you want to include it in this prompt, you'll need to create a PDF of it. 
-<<<<<< In Progress
 
 ```Text
 Roles:
