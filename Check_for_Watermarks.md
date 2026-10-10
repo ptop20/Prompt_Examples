@@ -1,6 +1,7 @@
 # Review document for AI Watermarks
 
-### Test 1: Checks for Unicode changes from the standard ASCII/Latin-1 Unicode that could show AI generation 
+## A site to check for AI Watermarks in images, videos, and documents (https://checkaiwatermarks.com/)
+### This is a quick test to check for Unicode changes from the standard ASCII/Latin-1 Unicode that could indicate AI generation and will provide an idea of these sites are doing. 
 
 ```text
 Role: Automated document checker
