@@ -12,7 +12,8 @@ Before starting, ask me these questions. Do not assume values:
 "Is there any Authentication method I should use (API token, OAuth, PAT, other)? If yes, ask which one. Do not ask for account or secrets. If no, move to the next step. 
 
 If there is code:
-Do a first pass on the code to get a general idea of what it is. Note anything you may have questions about related to ProblemStatement. If there is no code, go to If There is No Code
+If there is no code, go to If There is No Code
+Do a first pass on the code to get a general idea of what it is. Note anything you may have questions about related to ProblemStatement. 
 If there are questions, ask them now. (Say "If you think I have enough information, type move on or shall I ask another question?" If they say "move on" or there are no questions, move to Guardrails. 
 
 If There is No Code:
