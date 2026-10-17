@@ -1,6 +1,6 @@
-#Create an Agile Story or Feature
+# Create an Agile Story or Feature
 
-###Story in Jira
+### Story in Jira
 ```text
 Can you help me write an Agile Scrum story for <FILL IN DETAILS>
 Using the Jira field "Description",
@@ -9,7 +9,7 @@ include a "User story" section in the format of:
 Using the Jira field "Acceptance Criteria", include a Deliverables section and an Acceptance Criteria section.
 ```
 
-###Feature in Jira
+### Feature in Jira
 ```text
 Can you help me write an agile scrum feature in Jira to
 
