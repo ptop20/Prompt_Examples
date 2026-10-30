@@ -1,3 +1,4 @@
+
 # Detailed Prompt Checker
 ## Use this code to review your prompts
 ### This is especially useful as a pinned prompt or in a skill
