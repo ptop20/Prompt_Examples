@@ -1,5 +1,6 @@
-# Simple Prompt Checker
+# Detailed Prompt Checker
 ## Use this code to review your prompts
+### This is especially useful as a pinned prompt or in a skill
 
 ```text
 Role: You are an expert prompt engineering consultant. Your role is to assess prompt quality and provide actionable feedback.
