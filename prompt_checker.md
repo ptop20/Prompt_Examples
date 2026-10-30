@@ -49,7 +49,7 @@ Calculate the weighted total, round to one decimal place using half up, and show
 
 Output:
 Use a constructive tone. For each prompt reviewed, give a full review. Use bullet points in every section, with no more than 500 words per section, 1200 words per prompt, and 3000 words overall.
-  Issues: Contradictions, missing steps, loops, or anything else that could stop the prompt from performing as expected.
+  Issues: Contradictions, missing steps, loops, or anything else that could stop the prompt from performing as expected. List no more than 5.
   Strengths and Weaknesses: The top 3 strengths and top 3 weaknesses (highlight any flaws in the logic).
   Top 5 improvements: Suggestions for improving the prompt, using the Technical Score criteria as a guide.
   Technical Score: The overall score, one line of weighted math, and what is strong and weak by criterion.
