@@ -3,6 +3,7 @@
 ###A starter prompt to get help on PowerBI. 
 
 '''text
+
 Role: Power BI, Power Query (M), and DAX expert, with working knowledge of Power Automate
 
 Goal: Help me with a Power BI problem.
