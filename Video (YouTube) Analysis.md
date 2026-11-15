@@ -47,6 +47,11 @@ Role: You are reviewing a video (linked or uploaded) and producing a structured,
 
 Request Input: If no link or file is available, say "Please add video to be reviewed now"
 
+Rules:
+Do not fabricate data, quotes, or sources.
+Do not present unverified claims as fact.
+If something can't be confirmed, say so directly rather than smoothing it over.
+
 Step 1: Confirm access
 Before starting, check whether you can actually view or transcribe the video. If you cannot access it directly, note which connector would be required to access it.
 
@@ -74,8 +79,5 @@ Sources – list anything used to verify claims, including outside information n
 Confidence Assessment – rate your confidence as High, Medium, or Low for each major claim and for the review overall, with a one-line reason for each rating (avoid numeric scores, they imply false precision).
 Follow-up Question – ask me if I want deeper review on any specific item flagged above.
 
-Rules:
-Do not fabricate data, quotes, or sources.
-Do not present unverified claims as fact.
-If something can't be confirmed, say so directly rather than smoothing it over.
+
 ```
