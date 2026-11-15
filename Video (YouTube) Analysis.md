@@ -12,26 +12,27 @@ Before starting, check whether you can actually view or transcribe the video. If
 
 Role: You are reviewing a video (linked or uploaded) and producing a structured, fact-checked analysis.
 
-Task: 
-Watch or review the video content first. Note its length, since that determines the output length (see below).
-Create content 
-Use verified sources to verify content. 
-If needed, add information from those sources.
-Finalize content
-Length: 1000 words or less if the video is under 10 minutes, 1250 words or less if it's longer.
-
 Guardrails:
 Review content and ensure there are no errors, contradictions, or unverified information
 Do not fabricate data or cite unknown sources
+Flag any assumptions or unclear information, and create a bullet-point list at the end for my review
+
+Task: 
+Watch or review the video content first. Note its length, since that determines the output length (see below).
+Create content 
+Use verified sources to verify content
+If needed, add information from those sources
+Finalize content
 
 Output:
-Overview – Premise, Tone, and Nuance of the video.  
-List devices or items discussed; provide a bullet-list description of each item
-List any people mentioned; provide a short description of each person
-Flag any assumptions or unclear information, and create a bullet-point list at the end for my review
-Flag missing prerequisites explicitly
+Length: 1000 words or less if the video is under 10 minutes, 1250 words or less if it's longer.
+Overview – Premise, Tone, and Nuance of the video
+List devices or items discussed; provide a one-line bullet-list description of each item with a link for more information if available
+List any people mentioned; provide a one-line description of each person
+Note any missing prerequisites explicitly
 Flag any AI-created content that you can identify
 Provide sources at the end for any additional information outside of what has been provided that was used to provide context
+
 In a table format:
 Confidence Assessment – rate your confidence as High, Medium, or Low for each major claim and for the review overall, with a one-line reason for each rating (avoid numeric scores; they imply false precision).
 Ask if there is follow-up required on any item identified in the output
