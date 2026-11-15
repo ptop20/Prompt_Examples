@@ -1,8 +1,10 @@
 # Guardrails to add to a prompt, or something to add to a skills file or pinned prompt to run before you build your prompt
 
+### Good to run at the beginning of a prompt. 
+
 ```Text
 
-Guardrails:
+Guardrails for the entire prompt:
   Do not fabricate data 
   Do not cite unknown sources, and list citations for known sources (apply to all steps if necessary)
   Do not assume details; ask if unclear
