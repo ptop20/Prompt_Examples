@@ -14,10 +14,12 @@ Read a EULA:
 
 Ways to improve your prompts:
 1. [Prompt Checker](https://github.com/ptop20/Prompt_Examples/blob/main/prompt_checker.md) - A more detailed way of checking your prompts. More informative than a one-liner.
-2. [Anti-hallucination Checkers](https://github.com/ptop20/prompt_examples/blob/main/anti_hallucination_prompts.md) - Examples for confirming prompts are being read, and content is correct
+2. [Guardrails example for Prompts](https://github.com/ptop20/Prompt_Examples/blob/main/Pinned_Guardrails.md) - Guardrails for any prompt, or add it as a skill that can be called
+3. [Anti-hallucination Checkers](https://github.com/ptop20/prompt_examples/blob/main/anti_hallucination_prompts.md) - Examples for confirming prompts are being read, and content is correct
+   
 
 Using AI to do reviews:
-1. [Video Analyzer](https://github.com/ptop20/Prompt_Examples/blob/main/Gemini_YouTube_Analysis.md) - Simple prompt to review videos (For YouTube: It is Gemini-focused - Need Connector for Claude)
+1. [Video Analyzer](https://github.com/ptop20/Prompt_Examples/blob/main/Video%20(YouTube)%20Analysis.md) - Simple prompt to review videos (For YouTube: Use Gemini)
 
 Using AI to check your AI Prompts and documents
 1. [Token Use Analysis](https://github.com/ptop20/Prompt_Examples/blob/main/AI_cost_analysis.md) - Some ways to estimate the cost of running your prompts BEFORE you commit
