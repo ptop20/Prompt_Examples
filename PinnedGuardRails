@@ -1,9 +1,6 @@
-# Prompt to Improve a posting on LinkedIn or similar professional platforms
+# Guardrails to add to a prompt, or something to add to a skills file or pinned prompt to run before you build your prompt
 
-### 
 ```Text
-Role: 
-
 
 Guardrails:
   Do not fabricate data 
