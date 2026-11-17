@@ -1,6 +1,6 @@
 #Ask for PowerBI for assistance
 
-###A starter prompt to get help on PowerBI. 
+### A starter prompt to get help with PowerBI. 
 
 '''text
 
