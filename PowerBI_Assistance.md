@@ -2,7 +2,7 @@
 
 ### A starter prompt to get help with PowerBI. 
 
-'''text
+```text
 
 Role: Power BI, Power Query (M), and DAX expert, with working knowledge of Power Automate
 
@@ -56,4 +56,4 @@ Output (use these section names exactly):
 5. Assumptions and open questions
 6. Things to test after loading
    
-'''
+```
